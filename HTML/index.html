@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/Styles.css">
+    <!-- Add this inside the <head> section of your HTML document -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> <!--to import bootstrap css-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> <!--to import bootstrap-->
+    <title>Health website</title>
+    <header><nav class="navbar navbar-expand-lg navbar-light bg-opacity-100">
+        <div class="container">
+            <!-- Logo Image Outside Navbar -->
+            <a class="navbar-brand" href="#">
+                <img src="../Assets/Imgs/Logo.png" alt="Logo" width="400" height="300" class="d-inline-block align-text-top">
+            </a>
+           
+            <!-- Navbar Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <a class="nav-link active" aria-current="page" href="#">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  about us
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Articles</a></li>
+                    <li><a class="dropdown-item" href="#">gallery</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">FAQ</a>
+                </li>
+                </ul>
+                <nav class="navbar navbar-light bg-opacity-100">
+                    <div class="container-fluid">
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </nav> 
+            </div>
+        </div>
+    </nav>
+    </header>
+</head>
+<body>
+    <script src="../Javascript/Mid.js"> </script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 Left-contianer">
+                
+                <p>“Explore a world of holistic well-being, where your physical, mental, and spiritual health converge. Discover the healing power of self-care, mindful living, and the transformative magic of wellness practices that have touched hearts for generations.
+                    Let us be your guide on this path to a healthier, happier you. Together, we'll create a symphony of well-being that resonates deep within your heart. Your journey towards wellness begins here”</p>
+                    <br>   
+                    <div class="article1">
+                    <p>
+                "Unlock Your Full Potential: The Journey to Physical Wellness Begins Here!
+Picture a life where you wake up feeling invigorated, a body brimming with vitality, and a spirit radiating with energy. It's not a distant dream; it's the promise of physical wellness.
+ In a world often marked by the relentless hustle and bustle, our bodies deserve the utmost care and attention.
+            </p>
+            <button type="button" class="btn btn-dark">Read more >></button>
+                </div>
+            </div>
+            <div class="col-md-6 right-container">
+                <img src="../Assets/Imgs/Homepage.jpg" height="600px"></img>
+                
+                <br><br>  <br>
+                <div class="article2">
+                    
+                    <p>
+                       
+                "Unlock Your Full Potential: The Journey to Physical Wellness Begins Here!
+Picture a life where you wake up feeling invigorated, a body brimming with vitality, and a spirit radiating with energy. It's not a distant dream; it's the promise of physical wellness.
+ In a world often marked by the relentless hustle and bustle, our bodies deserve the utmost care and attention.
+            </p>
+            <button type="button" class="btn btn-dark">Read more >></button>
+                </div>
+            </div>
+            
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Connect with us on social media:</p>
+                        <a href="#" class="social-icons"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icons"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icons"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icons"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
